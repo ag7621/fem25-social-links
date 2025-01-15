@@ -1,3 +1,75 @@
+:root {
+
+    /* colors */
+    --green: hsl(75, 94%, 57%);
+
+    --white: hsl(0, 0%, 100%);
+
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+
+    /* components */
+    --clr-background-primary: var(--grey-900);
+    --clr-card-primary: var(--grey-800);
+    --clr-btn-primary: var(--grey-700);
+
+    --clr-text-primary: var(--white);
+    --clr-text-accent: var(--green);
+
+    /* font size */
+    --fs-400: 0.875rem
+
+    /* font weight */
+    --fw-regular: 400;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+}
+
+/* css reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  } */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* styling */
+
+body {
+    font-family: "Inter", serif;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
