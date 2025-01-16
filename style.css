@@ -67,8 +67,24 @@ h6 {
 /* styling */
 
 body {
+    background-color: var(--clr-background-primary);
+    color: var(--clr-text-primary);
     font-family: "Inter", serif;
+    font-size: var(--fs-400);
 }
+
+button {
+    background-color: var(--clr-btn-primary);
+    color: var(--clr-text-primary);
+}
+
+
+.card {
+    background-color: var(--clr-card-primary);
+    max-width: 600px;
+}
+
+
 
 .attribution {
     font-size: 11px;
