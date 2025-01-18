@@ -67,24 +67,45 @@ h6 {
 /* styling */
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--clr-background-primary);
     color: var(--clr-text-primary);
+    height: 100vh;
     font-family: "Inter", serif;
     font-size: var(--fs-400);
+    font-size: 14px;
 }
 
 button {
     background-color: var(--clr-btn-primary);
     color: var(--clr-text-primary);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 12px;
+    /* font-size: 1rem; */
+    font-weight: var(--fw-semi-bold);
 }
 
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--clr-card-primary);
-    max-width: 600px;
+    width: 380px;
+    padding: 40px;
 }
 
-
+.card img {
+    border-radius: 50%;
+    max-width: 90px;
+}
 
 .attribution {
     font-size: 11px;
